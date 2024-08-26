@@ -1,0 +1,65 @@
+.about-me{
+    font-family: Libre Baskerville, 'Times New Roman', Times, serif;
+   }
+
+   
+   body{
+      color: white;
+      background-image: url(/assets/header-bg.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      font-family: "poppins, Arial";
+    }
+
+    .top-button{
+      background-color:rgb(249, 253, 17);
+      border: none;
+      cursor: pointer;
+      border-radius: 20px;
+      
+      
+    }
+
+    .link{
+      text-decoration: none;
+      color: rgb(7, 6, 6);
+    }
+
+    .about-me{
+     margin-left:300px ;
+    }
+
+    nav ul {
+list-style: none; 
+padding: 0;
+margin: 0;
+display: flex; 
+justify-content: flex-end;
+    }
+
+    
+nav ul li {
+margin: 10px; 
+}
+
+nav ul li a {
+text-decoration: none; 
+color: black; 
+margin-left: 4px;
+font-size: small;
+color: beige;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: rgb(14, 13, 13);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #45a049;
+}
